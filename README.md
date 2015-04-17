@@ -13,3 +13,14 @@ cinnamon 2.2.16
 eclipse IDE:
 Version: Luna Release (4.4.0)
 Build id: 20140612-0600
+
+overview:
+1 clone the raspberry/tools repo
+2 install and configure the eclipse C/C++ IDE
+
+setup Eclipse IDE for a new project:
+ In the “Cross compiler prefix” field type: “arm-linux-gnueabihf-”
+In the “Cross compiler path” field type the full path to the toolchain
+for example   /rpi/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/
+
+Huge Thanks!!! to: http://hertaville.com/2012/09/28/development-environment-raspberry-pi-cross-compiler/
