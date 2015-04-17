@@ -1,5 +1,3 @@
-//#include <rpi-mysql.h>
-
 #include <stdio.h>
 #include <stdlib.h>
 

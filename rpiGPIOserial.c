@@ -14,6 +14,7 @@
 #include <CIGI-serial-packets.h>
 #include <rpi-mysql.h>
 #include <rpi-uart.h>
+
 #define version "0.1"
 
 #define true 1
